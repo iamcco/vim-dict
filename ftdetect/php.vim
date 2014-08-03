@@ -1,7 +1,7 @@
 "=============================================================================
 " Name Of File: setupDictionary.vim
 " Description: setup the dictionary path
-" Author: iamcco/ƒÍ∏‚–°∂πÃ¿    <ooiss@qq.com>
+" Author: iamcco/Âπ¥Á≥ïÂ∞èË±ÜÊ±§    <ooiss@qq.com>
 " GitHub: https://github.com/iamcco/vim-dict.git
 "         forked from https://github.com/asins/vim-dict.git
 "=============================================================================
