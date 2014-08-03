@@ -7,9 +7,7 @@
 "=============================================================================
 "setup the dict path
 if(has("win32") || has("win64") || has("win95") || has("win16"))
-    autocmd filetype javascript set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\javascript.dic
-    autocmd filetype javascript set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\node.dic
+    autocmd filetype php set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\php.dic
 else
-    autocmd filetype javascript set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/javascript.dic
-    autocmd filetype javascript set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/node.dic
+    autocmd filetype php set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/php.dic
 endif
