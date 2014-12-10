@@ -9,5 +9,5 @@
 if(has("win32") || has("win64") || has("win95") || has("win16"))
     autocmd filetype css set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\css.dic
 else
-    autocmd filetype css set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/css.dic
+    autocmd filetype css set dictionary+=~/.vim/bundle/vim-dict/dict/css.dic
 endif

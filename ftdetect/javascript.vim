@@ -10,6 +10,6 @@ if(has("win32") || has("win64") || has("win95") || has("win16"))
     autocmd filetype javascript set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\javascript.dic
     autocmd filetype javascript set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\node.dic
 else
-    autocmd filetype javascript set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/javascript.dic
-    autocmd filetype javascript set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/node.dic
+    autocmd filetype javascript set dictionary+=~/.vim/bundle/vim-dict/dict/javascript.dic
+    autocmd filetype javascript set dictionary+=~/.vim/bundle/vim-dict/dict/node.dic
 endif

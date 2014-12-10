@@ -9,5 +9,5 @@
 if(has("win32") || has("win64") || has("win95") || has("win16"))
     autocmd filetype php set dictionary+=$VIM\vimfiles\bundle\vim-dict\dict\php.dic
 else
-    autocmd filetype php set dictionary+=$VIM/vimfiles/bundle/vim-dict/dict/php.dic
+    autocmd filetype php set dictionary+=~/.vim/bundle/vim-dict/dict/php.dic
 endif
